@@ -4,13 +4,15 @@ import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
 import Partners from "../components/Partners";
 
+import FutureRooms from "../components/FutureRooms";
+
 export default function Home() {
   return (
     <>
       <Hero>
         <Banner
-          title="PROPERTY LISTING"
-          subtitle={
+          title="Property Listings"
+          children={
             <>
               <ul>
                 <li>
@@ -21,6 +23,7 @@ export default function Home() {
           }
         />
       </Hero>
+      <FutureRooms />
       <Partners />
     </>
   );
