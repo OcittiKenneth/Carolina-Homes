@@ -10,13 +10,9 @@ export default function Error() {
         title="404"
         subtitle="Page Not Found"
         children={
-          <>
-            <ul>
-              <li>
-                <Link to="/rooms">Back to Our Rooms</Link>
-              </li>
-            </ul>
-          </>
+          <Link to="/rooms">
+            Back to Our Rooms
+          </Link>
         }
       />
     </Hero>

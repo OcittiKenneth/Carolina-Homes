@@ -13,13 +13,9 @@ export default function Home() {
         <Banner
           title="Property Listings"
           children={
-            <>
-              <ul>
-                <li>
-                  <Link to="/rooms">Our Rooms</Link>
-                </li>
-              </ul>
-            </>
+            <Link to="/rooms" className="btn-primary">
+              Our Rooms
+            </Link>
           }
         />
       </Hero>
