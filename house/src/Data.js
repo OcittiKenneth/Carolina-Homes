@@ -27,7 +27,7 @@ export default [
       slug: "single-room",
       type: "single",
       price: 100,
-      capacity: 1,
+      capacity: 2,
       size: 390,
       featured: false,
       description:
@@ -79,12 +79,12 @@ export default [
       id: "2",
     },
     fields: {
-      name: "single basic",
-      slug: "single-basic",
-      type: "single",
+      name: "apartment",
+      slug: "apartment",
+      type: "apartment",
       price: 200,
       size: 650,
-      capacity: 10,
+      capacity: 3,
       featured: false,
       description:
         "I also have memo in there to improve performance, again, not going to focus on it too much. Same with the shouldNotCache prop, which I also have memo in there to improve performance, again, not going to focus on it too much. Same with the shouldNotCache prop, which ",
@@ -128,9 +128,9 @@ export default [
     fields: {
       name: "Presidential",
       slug: "presidential",
-      type: "single",
+      type: "presidential",
       price: 900,
-      capacity: 9,
+      capacity: 1,
       size: 310,
       featured: false,
       description:
@@ -175,11 +175,11 @@ export default [
       id: "4",
     },
     fields: {
-      name: "Doudle",
+      name: "Double",
       slug: "double",
-      type: "single",
+      type: "double",
       price: 400,
-      capacity: 1,
+      capacity: 2,
       size: 350,
       featured: false,
       description:
@@ -224,11 +224,60 @@ export default [
       id: "4",
     },
     fields: {
-      name: "Doudle",
-      slug: "double",
-      type: "single",
+      name: "Office",
+      slug: "office",
+      type: "office",
       price: 400,
-      capacity: 1,
+      capacity: 2,
+      size: 350,
+      featured: true,
+      description:
+        "I also have memo in there to improve performance, again, not going to focus on it too much. Same with the shouldNotCache prop, which I also have memo in there to improve performance, again, not going to focus on it too much. Same with the shouldNotCache prop, which ",
+      extras: [
+        "I also have memo in there to improve performance, again, not going to focus on it too much. Same with the shouldNotCache prop, which ",
+      ],
+      images: [
+        {
+          fields: {
+            file: {
+              url: room4,
+            },
+          },
+        },
+        {
+          fields: {
+            file: {
+              url: img9,
+            },
+          },
+        },
+        {
+          fields: {
+            file: {
+              url: img10,
+            },
+          },
+        },
+        {
+          fields: {
+            file: {
+              url: img11,
+            },
+          },
+        },
+      ],
+    },
+  },
+  {
+    sys: {
+      id: "4",
+    },
+    fields: {
+      name: "Office",
+      slug: "office",
+      type: "office",
+      price: 400,
+      capacity: 2,
       size: 350,
       featured: true,
       description:
@@ -277,7 +326,7 @@ export default [
       slug: "double",
       type: "single",
       price: 400,
-      capacity: 1,
+      capacity: 2,
       size: 350,
       featured: true,
       description:
@@ -326,56 +375,7 @@ export default [
       slug: "double",
       type: "single",
       price: 400,
-      capacity: 1,
-      size: 350,
-      featured: true,
-      description:
-        "I also have memo in there to improve performance, again, not going to focus on it too much. Same with the shouldNotCache prop, which I also have memo in there to improve performance, again, not going to focus on it too much. Same with the shouldNotCache prop, which ",
-      extras: [
-        "I also have memo in there to improve performance, again, not going to focus on it too much. Same with the shouldNotCache prop, which ",
-      ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: room4,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: img9,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: img10,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: img11,
-            },
-          },
-        },
-      ],
-    },
-  },
-  {
-    sys: {
-      id: "4",
-    },
-    fields: {
-      name: "Doudle",
-      slug: "double",
-      type: "single",
-      price: 400,
-      capacity: 1,
+      capacity: 2,
       size: 350,
       featured: true,
       description:
