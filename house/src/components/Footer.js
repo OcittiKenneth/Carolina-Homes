@@ -7,13 +7,13 @@ export default function Footer() {
     <section className="footer">
       <div className="extras partners-center">
         <div>
-          <h6>CAROLINA HOMES</h6>
-          <p>
+          <h6 className="footerHeaders">CAROLINA HOMES</h6>
+          <p className="p">
             There are many variations of dummy passages of Lorem Ipsum available
             is but the majority
           </p>
           <div>
-            <p>You visit our pages on the following links</p>
+            <p className="p">You visit our pages on the following links</p>
             <span>
               <FaBeer />
             </span>
@@ -26,23 +26,26 @@ export default function Footer() {
           </div>
         </div>
         <div>
-          <h6>GET IN TOUCH</h6>
-          <p>Office Time: 8.00 AM - 6:00PM</p>
-          <p>1812 214 5687</p>
-          <p>info@yourweb.com</p>
-          <p>134, Cornish Building, Some Near by area, New York, USA - 34556</p>
+          <h6 className="footerHeaders">GET IN TOUCH</h6>
+          <p className="p">Office Time: 8.00 AM - 6:00PM</p>
+          <p className="p">1812 214 5687</p>
+          <p className="p">info@yourweb.com</p>
+          <p className="p">
+            134, Cornish Building, Some Near by area, New York, USA - 34556
+          </p>
         </div>
         <div>
-          <h6>QUICK LINKS</h6>
-          <p>Blog</p>
-          <p>About Our Company</p>
-          <p>Submit Your Property</p>
-          <p>Become A Member</p>
+          <h6 className="footerHeaders">QUICK LINKS</h6>
+          <p className="p">Blog</p>
+          <p className="p">About Our Company</p>
+          <p className="p">Submit Your Property</p>
+          <p className="p">Become A Member</p>
         </div>
-        <hr />
-        <div>
-          <p>Carolina Homes © 2020 All rights reserved.</p>
-        </div>
+      </div>
+      <div className="copyright">
+        <p className="copyrights">
+          Carolina Homes © 2020 All rights reserved.
+        </p>
       </div>
     </section>
   );

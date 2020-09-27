@@ -17,6 +17,7 @@ class RoomProvider extends Component {
     minSize: 0,
     maxSize: 0,
     parking: false,
+    parkingSpace:""
   };
 
   componentDidMount() {

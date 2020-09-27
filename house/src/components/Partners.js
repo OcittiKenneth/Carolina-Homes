@@ -35,6 +35,8 @@ export default class Partners extends Component {
   render() {
     return (
       <section className="partners ">
+        <hr />
+
         <Title title="Our Partners" />
         <div className="partners-center">
           {this.state.partners.map((item, index) => {

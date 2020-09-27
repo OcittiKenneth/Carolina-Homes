@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
 import RoomContainer from "../components/RoomContainer";
+import ContactForm from "../components/ContactForm";
 
 export default function Room() {
   return (
@@ -17,6 +18,7 @@ export default function Room() {
           }
         />
       </Hero>
+      {/* <ContactForm /> */}
       <RoomContainer />
     </>
   );

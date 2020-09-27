@@ -28,6 +28,8 @@ export default [
       type: "single",
       price: 100,
       capacity: 2,
+      parking: true,
+      parkingSpace: "Available",
       size: 390,
       featured: false,
       description:
@@ -85,7 +87,7 @@ export default [
       price: 200,
       size: 650,
       capacity: 3,
-      parking:false,
+      parking: false,
       featured: false,
       description:
         "I also have memo in there to improve performance, again, not going to focus on it too much. Same with the shouldNotCache prop, which I also have memo in there to improve performance, again, not going to focus on it too much. Same with the shouldNotCache prop, which ",
@@ -132,7 +134,7 @@ export default [
       type: "presidential",
       price: 900,
       capacity: 1,
-      parking:true,
+      parking: true,
       size: 310,
       featured: false,
       description:
